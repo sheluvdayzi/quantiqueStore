@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Capriola&family=Nosifer&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#bcgImageIndex{
+    background-image: url(../img/quelle-difference-entre-physique-quantique-mecanique-quantique-scaled.jpg);
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li{
+    font-family: 'Capriola', cursive;
+    font-size: 25px;
+    color: #D3C0AE;
+}
+
+a{
+    text-decoration: none;
+    color: #2D141C;
+}
+
+h1{
+    text-align: center;
+    padding: 3vw 0;
+    font-family: 'Nosifer', cursive;
+    margin: 0;
+    color : #D3C0AE;
+}
+
+header{
+    background-color: #ad9176;
+}
+
+body{
+    background-color: #f5d7bb;
+}

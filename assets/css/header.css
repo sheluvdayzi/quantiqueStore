@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Capriola&family=Nosifer&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    background-color: #ad9176;
+
+}
+
+a{
+    color : #D3C0AE;
+    text-align: center;
+}
+
+h1{
+    color : #D3C0AE;
+    text-align: center;
+    padding: 3vw 0;
+    font-family: 'Nosifer', cursive;
+    margin: 0;
+}
+
+#menuButton{
+    color: #2D141C;
+    padding: 3vw 0;
+    font-family: 'Capriola', cursive;
+    display: flex;
+    align-items: center;
+}
+
+
+label{
+    font-family: 'Nosifer', cursive;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+form{
+    margin: 5vh 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    padding: 16px ;
+}
+
+main {
+    width: 100%;
+}
+
+.labelInputContain{
+    /* margin: 0 auto; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh 0;
+}
+
+#subButton{
+    height: 5vh;
+    font-family: Nosifer;
+    background-color: #AD9176;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+body{
+    background-color: #f5d7bb;
+}
+
+input{
+    width: 25%;
+    text-align: center;
+}
