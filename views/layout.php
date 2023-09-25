@@ -4,7 +4,3 @@ if(isset($contenu)) {
     echo $contenu;
 }
 ?>
-
-
-
-
